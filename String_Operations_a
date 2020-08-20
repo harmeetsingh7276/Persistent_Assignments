@@ -10,7 +10,7 @@ namespace Test
         {
             Console.WriteLine("Enter String to be checked=");
             string str = Console.ReadLine();
-
+            str = str.ToLower();
             IsStringPallindrome(str);
 
             void IsStringPallindrome(string str)
